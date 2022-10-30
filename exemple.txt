@@ -1,0 +1,21 @@
+Program a_aaaa_  /*ceci est un commentaire*/
+PDEC                 
+a|b|c|k:Pint;
+a:Pint;
+y:Pfloat;
+e:Pfloat;
+f:Pfloat;
+@define Pfloat g = 67.5; 
+@define Pint h = 1000; 
+PINST
+Begin
+a<-0;
+a<-b/0;
+f<-e/0.0;
+e<-f/a;
+c<-r/14+b*4;
+DO b<-5; IF:(e<y) ELSE c<-5; ENDIF
+FOR y<-5.2 WHILE 5.5 DO DO h<--8; IF:(y!=0) ENDIF ENDFOR
+FOR y<-5.2 WHILE 5.5 DO FOR y<-5.2 WHILE 5.5 DO DO k<--8; IF:(y!=0) ENDIF ENDFOR ENDFOR  //imbrication des instructions
+
+End
